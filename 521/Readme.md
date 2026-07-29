@@ -11,21 +11,21 @@ Clone the repository and install the dependencies in a virtual environment:
 git clone https://github.com/MSnowman/UM_SIADS.git
 cd your-repo-name
 
-# 2. Create and activate a virtual environment
+# 2. Open the project in VS Code
+(Ensure you have VS Code and the Python/Jupyter extensions installed)
+
+# 3. Create and activate a virtual environment
+# Open the integrated terminal in VS Code and run:
 python3.13 -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
-# 3. Install requirements
+# 4. Install requirements
 pip install -r requirements.txt
 
-#3.5 Set up environment for jupyter
-python -m ipykernel install --user --name=venv313 --display-name "Python 3.13 (venv)"
+# 5. Launch and set the kernel environment
+- Open the `.ipynb` notebook file inside VS Code.
+- In the top right corner of the notebook interface, click "Select Kernel" (or the currently selected Python version).
+- Choose **"Python Environments"** and select the **venv** you just created.
 
-# 4. Launch Jupyter Notebook
-jupyter notebook
-
-# 5. Set the kernel environment
-Select Python 3.13 (venv)
-
-# 6 Run the Notebook
-Run the notebook and the Dashboard will open locally at the end
+# 6. Run the Notebook
+Run all cells in the notebook. The charts and Dashboard will render correctly directly inside the VS Code window.
