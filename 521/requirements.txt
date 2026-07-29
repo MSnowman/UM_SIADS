@@ -2,6 +2,8 @@ panel==1.9.3
 pandas==2.3.3
 numpy>=2.0.0
 plotly==6.7.0
+statsmodels
+ipython
 kagglehub==1.0.2
 seaborn==0.13.2
 anywidget
