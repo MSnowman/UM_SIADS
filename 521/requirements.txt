@@ -8,3 +8,4 @@ anywidget
 folium
 ipywidgets
 ipykernel
+nbformat>=4.2.0 
