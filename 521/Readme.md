@@ -25,7 +25,7 @@ pip install -r requirements.txt
 # 5. Launch and set the kernel environment
 - Open the `.ipynb` notebook file inside VS Code.
 - In the top right corner of the notebook interface, click "Select Kernel" (or the currently selected Python version).
-- Choose **"Python Environments"** and select the **venv** you just created.
+- Choose 'Python Environments' and select the 'venv' you just created.
 
 # 6. Run the Notebook
 Run all cells in the notebook. The charts and Dashboard will render correctly directly inside the VS Code window.
